@@ -1,1 +1,1 @@
-# devOps_microservices_loclpt
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/TanLocc/devOps_microservices_loclpt/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/TanLocc/devOps_microservices_loclpt/tree/main)

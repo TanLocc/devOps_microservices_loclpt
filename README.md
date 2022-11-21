@@ -33,7 +33,7 @@ python3 -m pip install --user virtualenv
 python3 -m virtualenv --python=<path-to-Python3.7> .devops
 source .devops/bin/activate
 ```
-* Run `make install` to install the necessary dependencies
+* Run `make install` to install the necessary dependencies in requirements.txt file
 * Install docker
 * Install minikube
 * Install kubectl 
@@ -46,4 +46,5 @@ Note: You need modify run_docker.sh anh upload_docker.sh to push image to docker
     -  After run `./make_prediction.sh` to make prediction, see output like content of docker_out.txt
 3. Run in Kubernetes:  `./run_kubernetes.sh`
     - `./run_kubernetes.sh` to implement microservice as container in pod on kubernetes
-    - Waitting few minute, After run `./make_prediction.sh` to make prediction, see output like content of kubernetes_out.txt
+    -  After waitting few minute, then run `kubectl get pod`  
+    -  finally, run `./make_prediction.sh` to make prediction, see output like content of kubernetes_out.txt

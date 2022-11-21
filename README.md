@@ -1,11 +1,10 @@
 
-The special part of the project is to deploy predictive modeling as a microservice to Kubernetes 
-[![CircleCI](https://dl.circleci.com/status-badge/img/gh/TanLocc/devOps_microservices_loclpt/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/TanLocc/devOps_microservices_loclpt/tree/main)
+ [![CircleCI](https://dl.circleci.com/status-badge/img/gh/TanLocc/devOps_microservices_loclpt/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/TanLocc/devOps_microservices_loclpt/tree/main)
 
 # Project Overview
 this project is a Machine Learning Microservice API.
 This project aims to implement a pre-trained, sklearn model that has been trained to predict housing prices in Boston according to several features, such as average rooms in a home and data about highway access, teacher-to-pupil ratios, and so on. Model predictions (inference) about housing prices through API calls. 
-
+The special part of the project is to deploy predictive modeling as a microservice to Kubernetes
 ## Project Tasks
 Your project goal is to operationalize this working, machine learning microservice using [kubernetes](https://kubernetes.io/), which is an open-source system for automating the management of containerized applications. In this project you will:
 * Test your project code using linting

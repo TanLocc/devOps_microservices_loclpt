@@ -20,7 +20,7 @@ Your project goal is to operationalize this working, machine learning microservi
 * You can use a local machine or create a virtual environment by following these steps:
   - Create a virtual machine by EC2 service on AWS
   - Install python 2.7 (need to let cloud9 install the necessary packages when connecting to).
-  - Install python 3.7 and nodejs with latest version (need to install packages for microservices).
+  - Install python 3.7, pip and nodejs with latest version (need to install packages for microservices).
   - Use cloud9 to connect to the virtual machine just created above to easily deploy and manage microservices.
 
 * Create a virtualenv with Python 3.7 and activate it. Refer to this link for help on specifying the Python version in the virtualenv. 
